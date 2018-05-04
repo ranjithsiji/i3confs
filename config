@@ -330,6 +330,8 @@ bindsym F8 exec python3 ~/.i3/quickswitch-for-i3/quickswitch.py -m
 exec --no-startup-id ~/.i3/i3-wm-multi-disp-scripts/newProjectWorkspaces.py default
 
 # start applications
+exec --no-startup-id xinput set-prop "Synaptics TM298" "Device Enabled" 1
+exec --no-startup-id xinput set-prop "Synaptics TM298" "libinput Tapping Enabled" 1
 #exec --no-startup-id google-chrome
 exec --no-startup-id numlockx on
 #exec --no-startup-id dropbox start
